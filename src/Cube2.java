@@ -12,11 +12,6 @@ public class Cube2 {
         basicCube.setSide(side);
     }
 
-    public Cube2(int side, String color) {
-        this(side);
-        this.color = color;
-    }
-
     public int getSide() {
         return basicCube.getSide();
     }
